@@ -1,0 +1,9 @@
+.root{
+    @apply focus:outline-none px-16 py-4 text-white font-semibold rounded-md shadow-md text-lg ;
+}
+.primary {
+    @apply bg-primary;
+}
+.secondary{
+    @apply bg-secondary;
+}

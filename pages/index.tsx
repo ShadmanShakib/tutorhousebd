@@ -1,8 +1,8 @@
 import React from 'react'
 import Head from 'next/head'
-import { GetServerSideProps } from 'next';
 import {Layout} from '@components/common';
-import {Hero }from '@components/ui'
+import {Hero,Tutors }from '@components/ui';
+import {Benefits, Review, SliderPress} from '@components/Homepage';
 
 
 
@@ -17,6 +17,10 @@ export default function Home() {
       </Head>
       <Layout>
         <Hero/>
+        <Tutors/>
+        <SliderPress/>
+        <Benefits/>
+        <Review/>
         </Layout>
   
     </div>

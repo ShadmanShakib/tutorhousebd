@@ -5,7 +5,7 @@ function Hero() {
     return (
         <div className="xl:grid grid-cols-2  pb-2">
             <Image className="w-full" loading="lazy" height={500} width={800} layout="responsive" src="/images/hero.jpg" alt=""/>
-           <div className="xl:flex  flex-col justify-center">
+           <div className="xl:flex   flex-col justify-center">
            {/* Hero Texts */}
             <div className="pt-6 px-6  text-gray-600">
                 <h1 className="text-3xl xl:text-5xl font-semibold font-sans">

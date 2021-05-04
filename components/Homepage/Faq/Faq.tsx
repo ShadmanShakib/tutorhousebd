@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Benefits() {
+function Faq() {
     return (
         <div>
             
@@ -8,4 +8,4 @@ function Benefits() {
     )
 }
 
-export default Benefits
+export default Faq
