@@ -2,7 +2,8 @@ import React from 'react'
 import Head from 'next/head'
 import {Layout} from '@components/common';
 import {Hero,Tutors }from '@components/ui';
-import {Benefits, Review, SliderPress} from '@components/Homepage';
+import {Benefits, Review, SliderPress,Faq, OtherServices} from '@components/Homepage';
+
 
 
 
@@ -21,6 +22,8 @@ export default function Home() {
         <SliderPress/>
         <Benefits/>
         <Review/>
+        <Faq/>
+        <OtherServices/>
         </Layout>
   
     </div>

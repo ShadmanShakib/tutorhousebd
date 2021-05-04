@@ -1,0 +1,15 @@
+.root{
+    @apply rotate-6;
+}
+.dropIcon{
+    @apply h-3 w-3 transform;
+}
+.dropIconClose{
+    @apply rotate-180;
+}
+.FaqCard{
+    @apply bg-white max-w-screen-lg p-3 rounded-md my-1 xl:w-screen ;
+}
+.cardDescription{
+    @apply mt-3 mb-1 text-gray-600;
+}

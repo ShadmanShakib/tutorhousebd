@@ -6,7 +6,7 @@ import ReviewCard from './ReviewCard';
 
 function Review() {
     return (
-        <div className="bg-gray-100 ">
+        <div className="bg-gray-200 ">
           <TitleText text="What our Happy Customer Say" /> 
           <div className="flex justify-center ">
           <div className="grid xl:grid-cols-3 justify-items-center gap-3">
