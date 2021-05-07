@@ -28,11 +28,11 @@ function Benefits() {
               <div className="absolute top-0 right-0 left-0 bottom-0 bg-primary opacity-70">
                   
               </div>
-              <div className="absolute top-0 right-24 flex flex-col justify-center items-center left-24 bottom-0">
+              <div className={css.text}>
               <h1 className=" text-center text-4xl mx-2  text-white font-bold ">Tutor House students <span className="text-secondary">imporve</span> on average by <span className="text-secondary">3 grades</span></h1>
                 <Button text="Browse All Tutors" variant="secondary"/>
               </div>
-          <img className={css.fadeIn} src="/images/hero.jpg" alt=""/>
+          <img  src="/images/hero.jpg" alt=""/>
           </div>
           
         </div>

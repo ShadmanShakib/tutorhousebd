@@ -1,12 +1,13 @@
 .root{
 
 }
-@keyframes fade {
+@keyframes fadeIn {
     from{ transform: translateY(100px); opacity: 0;}
     to{transform: translateY(0px); opacity: 1;}
     
 }
-.fadeIn{
+.text{
     animation: fade 0.3s ease-in;
+    @apply absolute top-0 right-24 flex flex-col justify-center items-center left-24 bottom-0;
     
 }

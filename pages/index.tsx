@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <div className="">
       <Head>
-        <title>Flow Blog template by Shadman Shakib</title>
+        <title>tutorhous by Shadman Shakib</title>
        
       </Head>
       <Layout>
