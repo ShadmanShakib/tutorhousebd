@@ -1,0 +1,10 @@
+.card{
+    @apply bg-white mt-20 transform  w-64 shadow-lg rounded-lg p-3 text-center;
+}
+.cardImg{
+    @apply rounded-full h-20 w-20 shadow-md transform -translate-y-14;
+}
+
+.badge{
+    @apply bg-transparent rounded-xl  py-1 border-secondary border text-lg text-secondary text-center px-5 hover:bg-secondary hover:text-white transition duration-200;
+}

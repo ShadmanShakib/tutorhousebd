@@ -2,7 +2,7 @@ import React from 'react'
 import Head from 'next/head'
 import {Layout} from '@components/common';
 import {Hero,Tutors }from '@components/ui';
-import {Benefits, Review, SliderPress,Faq, OtherServices} from '@components/Homepage';
+import {Benefits, Review, SliderPress,Faq, OtherServices,Promo} from '@components/Homepage';
 
 
 
@@ -24,6 +24,7 @@ export default function Home() {
         <Review/>
         <Faq/>
         <OtherServices/>
+        <Promo/>
         </Layout>
   
     </div>

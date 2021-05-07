@@ -3,7 +3,7 @@ import Image from 'next/image'
 import {FacebookIcon, GoogleIcon,TrustpilotIcon,RatingBule,RatingYellow} from '@components/icons'
 function Hero() {
     return (
-        <div className="xl:grid grid-cols-2  pb-2">
+        <div className="xl:grid grid-cols-2  pb-2 pt-16">
             <Image className="w-full" loading="lazy" height={500} width={800} layout="responsive" src="/images/hero.jpg" alt=""/>
            <div className="xl:flex   flex-col justify-center">
            {/* Hero Texts */}

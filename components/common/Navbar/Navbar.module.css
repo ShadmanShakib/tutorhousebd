@@ -1,0 +1,38 @@
+.root{
+    @apply shadow-lg  h-16 flex items-center justify-between text-secondary fixed w-full z-50  bg-white;
+}
+
+.btn{
+    @apply py-2 mr-10 text-lg items-center focus:outline-none px-3 shadow flex  font-semibold rounded-md text-white bg-primary;
+}
+
+.card{
+    @apply flex  relative  items-center mr-5 border-b-4 ;
+}
+.cardItem{
+    @apply xl:absolute top-14 w-48 bg-white shadow-lg py-4;
+}
+.dropIcon{
+    @apply   mt-1 ml-2;
+}
+.dropIconClose{
+    @apply transform rotate-180;
+}
+.menuItem{
+    @apply mr-5 ;
+}
+
+
+/* Phone menu Card */
+.PhoneMenu{
+    @apply flex flex-col  relative  ;
+}
+.PMItems{
+    @apply bg-white shadow-lg py-4
+}
+.options{
+    @apply px-6;
+}
+.PMbtn{
+    @apply py-2 mt-5 text-lg items-center focus:outline-none w-full justify-center shadow flex  font-semibold rounded-md text-white bg-primary
+}

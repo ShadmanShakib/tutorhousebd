@@ -9,7 +9,10 @@ function Layout({children}:Layouttypes) {
     return (
         <React.Fragment>
             <Navbar/>
-         {children} 
+            <div className=" max-w-screen-2xl mx-auto">
+            {children} 
+            </div>
+       
          <Footer/>  
         </React.Fragment>
     )

@@ -1,0 +1,9 @@
+.root{
+
+}
+.title{
+    @apply font-semibold mb-5;
+}
+.btn{
+    @apply text-white px-4 py-2 focus:outline-none  rounded-3xl;
+}

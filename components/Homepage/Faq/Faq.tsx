@@ -22,9 +22,10 @@ function Faq() {
 
     return (
         <React.Fragment >
-            <div className=" bg-gray-200 grid py-20 justify-center  "> 
-            <div className="flex items-center ">
-            <h1 className="text-secondary">How Tutorhouse works FAQ?</h1>
+            <div className="bg-gray-200">
+            <div className="  grid py-20 mx-auto max-w-screen-lg  "> 
+            <div className="flex items-center justify-between py-5 ">
+            <h1 className="text-secondary font-semibold">How Tutorhouse works FAQ?</h1>
             <div onClick={()=>toggleFaq(!openFaq)} className="bg-secondary cursor-pointer w-8 h-8 rounded-full  text-white flex justify-center items-center">
             <DropDownIcon  className={DropIconClass}/>
             </div> 
@@ -39,6 +40,7 @@ function Faq() {
                      />
                  )
              })}
+         </div>
          </div>
          </div>
         </React.Fragment>

@@ -1,9 +1,9 @@
 .root{
-    @apply focus:outline-none px-16 py-4 text-white font-semibold rounded-md shadow-md text-lg ;
+    @apply focus:outline-none mt-3 px-16 py-3  font-semibold rounded-md shadow-md text-lg ;
 }
 .primary {
-    @apply bg-primary;
+    @apply bg-primary text-white;
 }
 .secondary{
-    @apply bg-secondary;
+    @apply bg-secondary text-white;
 }
