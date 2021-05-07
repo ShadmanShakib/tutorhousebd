@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <div className="">
       <Head>
-        <title>tutorhouse by Shadman Shakib</title>
+        <title>Tutorhouse by Shadman Shakib</title>
        
       </Head>
       <Layout>
